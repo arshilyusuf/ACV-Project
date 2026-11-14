@@ -1,0 +1,26 @@
+{
+  "model": "zeroed_skip",
+  "metrics_over_valid_non_ignored_pixels": {
+    "per_class_iou": [
+      0.8944531679153442,
+      0.8107141256332397
+    ],
+    "miou": 0.852583646774292,
+    "dice": 0.919874906539917,
+    "confusion_matrix": [
+      [
+        32479577,
+        2219307
+      ],
+      [
+        1613331,
+        16415234
+      ]
+    ],
+    "valid_pixels": 52727449
+  },
+  "inference_benchmark_duration_seconds": 40.487228699959815,
+  "hardware": "cuda:NVIDIA GeForce GTX 1650",
+  "trainable_parameters": 1927042,
+  "seed": 20261114
+}

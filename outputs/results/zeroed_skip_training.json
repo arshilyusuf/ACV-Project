@@ -1,0 +1,21 @@
+{
+  "model": "zeroed_skip",
+  "max_epochs": 20,
+  "actual_epochs_completed": 8,
+  "optimizer_updates": 832,
+  "best_validation_epoch": 4,
+  "training_duration_seconds": 436.4262753999792,
+  "trainable_parameters": 1927042,
+  "hardware": "cuda:NVIDIA GeForce GTX 1650",
+  "configuration": {
+    "seed": 20261114,
+    "image_size": 128,
+    "batch_size": 32,
+    "max_epochs": 20,
+    "patience": 4,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "num_workers": 0
+  },
+  "zeroed_skip_fusion": true
+}
